@@ -5,3 +5,7 @@
 4456 200 - POST /products/70fa5ee1-ff45-48f8-a33a-153b0654366d
 4456 200 - DELETE /products/70fa5ee1-ff45-48f8-a33a-153b0654366d
 4456 200 - GET /products
+16664 200 - GET /products
+16664 500 - POST /products
+16664 200 - POST /products
+17132 400 - POST /products
