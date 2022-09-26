@@ -1,5 +1,7 @@
 package server
 
+import "github.com/gofiber/fiber/v2"
+
 var ErrorHandler = func(c *fiber.Ctx, err error) error {
 	code := fiber.StatusInternalServerError
 	if e, ok := err.(*fiber.Error); ok {

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/gofiber/fiber/v2"
 	"os"
 	"strconv"
 
@@ -14,7 +15,7 @@ func main() {
 		migrations.Migrate()
 	}
 
-	port, _ := strconv.Atoi(os.Getenv("3000"))
+	port, _ := strconv.Atoi(os.Getenv("APP_PORT"))
 
 	utils.CreateServer(port)
 }

@@ -6,5 +6,5 @@ import (
 )
 
 func Migrate() {
-	database.Connection().AutoMigrate(&models.Post{})
+	database.Connection().AutoMigrate(&models.Product{})
 }

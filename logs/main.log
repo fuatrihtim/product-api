@@ -1,0 +1,7 @@
+4456 200 - GET /products
+4456 200 - POST /products
+4456 200 - GET /products/70fa5ee1-ff45-48f8-a33a-153b0654366d
+4456 200 - GET /products
+4456 200 - POST /products/70fa5ee1-ff45-48f8-a33a-153b0654366d
+4456 200 - DELETE /products/70fa5ee1-ff45-48f8-a33a-153b0654366d
+4456 200 - GET /products

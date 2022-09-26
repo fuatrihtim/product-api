@@ -1,5 +1,10 @@
 package routes
 
+import (
+	"github.com/fuatrihtim/product-api/app/controllers/product"
+	"github.com/gofiber/fiber/v2"
+)
+
 func ProductRoutes(app *fiber.App) {
 	productGroup := app.Group("/products")
 	productGroup.Get("/", product.List)
